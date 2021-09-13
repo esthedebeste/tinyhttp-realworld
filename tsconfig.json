@@ -1,0 +1,30 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ESNext",
+      "esModuleInterop": true,
+      "allowJs": true
+    },
+    "include": ["tests/**/*"]
+  },
+  "include": ["server"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "outDir": "dist",
+    "baseUrl": "server",
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
+  }
+}
